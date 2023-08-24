@@ -22,18 +22,13 @@ const boxKeys = document.getElementById('key');
 const wrapper = document.getElementById('wrapper');
 
 document.addEventListener('keydown', (evt) => {
-    if (evt.key === 'a') {
-        boxKeys.style.background = colors.get('a');
-    } else if (evt.key === 's') {
-        boxKeys.style.background = colors.get('s');
-    } else if (evt.key === 'd') {
-        boxKeys.style.background = colors.get('d');
-    } else if (evt.key === 'q') {
-        renderBox(evt.key);
-    } else if (evt.key === 'w') {
-        renderBox(evt.key);
-    } else if (evt.key === 'e') {
-        renderBox(evt.key);
+    const key = evt.key;
+    if (colors.has(key)) {
+        if (key === 'q' || key === 'w' || key === 'e') {
+            renderBox(key);
+        } else {
+            boxKeys.style.background = colors.get(key);
+        }
     }
 });
 
