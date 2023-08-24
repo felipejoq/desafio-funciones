@@ -4,7 +4,7 @@ Este desafío pone a prueba el conocimiento en la sintaxis de funciones clásica
 
 ## 📝 Desarrollo de ejercicios
 
-- Ejercicio 1 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_1);
-- Ejercicio 2 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_2);
-- Ejercicio 3 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_3);
-- Ejercicio 4 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_4);
+- Ejercicio 1 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_1)
+- Ejercicio 2 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_2)
+- Ejercicio 3 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_3)
+- Ejercicio 4 👉 [AQUÍ](https://github.com/felipejoq/desafio-funciones/blob/main/Ejercicio_4)
