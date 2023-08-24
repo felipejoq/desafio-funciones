@@ -9,7 +9,7 @@ document.getElementById('box_2').addEventListener('click', turnBlack);
 document.getElementById('box_3').addEventListener('click', turnBlack);
 document.getElementById('box_4').addEventListener('click', turnBlack);
 
-// Teclas q, w o e
+// Teclas
 const colors = new Map();
 colors.set('a', '#ffc0cb');
 colors.set('s', '#ffa500 ');
