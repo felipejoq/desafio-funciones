@@ -39,7 +39,7 @@ document.addEventListener('keydown', (evt) => {
 
 const renderBox = (key) => {
     const newBox = document.createElement('div');
-    newBox.classList = 'box'
+    newBox.classList.add('box')
     newBox.style.background = colors.get(key);
     wrapper.appendChild(newBox);
 }
