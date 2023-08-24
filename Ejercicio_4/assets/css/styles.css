@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-green {
+    background: green;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+.bg-black {
+    background: black;
+}
+
+.border-black {
+    border: 2px solid black;
+}
