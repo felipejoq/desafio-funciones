@@ -4,7 +4,7 @@ const turnBlack = (evt) => {
     target.classList.add('bg-black');
 }
 
-// Selecciona los elementos por clase y por id que cumpla el patrón box_#
+// Selecciona los elementos por clase .box y por id que cumplan el patrón box_#
 const boxes = document.querySelectorAll('.box[id^="box_"]');
 
 boxes.forEach(box => {
