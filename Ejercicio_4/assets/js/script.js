@@ -4,10 +4,12 @@ const turnBlack = (evt) => {
     target.classList.add('bg-black');
 }
 
-document.getElementById('box_1').addEventListener('click', turnBlack);
-document.getElementById('box_2').addEventListener('click', turnBlack);
-document.getElementById('box_3').addEventListener('click', turnBlack);
-document.getElementById('box_4').addEventListener('click', turnBlack);
+// Selecciona los elementos por clase y por id que cumpla el patrón box_#
+const boxes = document.querySelectorAll('.box[id^="box_"]');
+
+boxes.forEach(box => {
+    box.addEventListener('click', turnBlack);
+});
 
 // Teclas
 const colors = new Map();
